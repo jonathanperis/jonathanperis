@@ -130,14 +130,11 @@ All implementations share the same PostgreSQL stored procedures, Nginx config, a
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jonathanperis&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonathanperis&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jonathanperis&theme=tokyonight&hide_border=true" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jonathanperis/jonathanperis/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jonathanperis/jonathanperis/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/jonathanperis/jonathanperis/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
 
 ---
 
