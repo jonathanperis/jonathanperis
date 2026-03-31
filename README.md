@@ -139,5 +139,9 @@ All implementations share the same PostgreSQL stored procedures, Nginx config, a
 ---
 
 <p align="center">
+  <a href="https://github.com/jonathanperis/jonathanperis/wiki"><b>📖 Read the Wiki</b></a> for deep dives on architecture, performance benchmarks, tech stack, and every project listed above.
+</p>
+
+<p align="center">
   <sub>hint: visit <a href="https://jonathanperis.github.io">jonathanperis.github.io</a> and try the Konami code</sub>
 </p>
