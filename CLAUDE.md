@@ -111,6 +111,6 @@ The README must include these bold links (before the snake animation):
 
 | Workflow | File | Trigger | Purpose |
 |----------|------|---------|---------|
-| Build | `ci.yml` | push/PR to main | Markdown lint (badge source) |
-| CodeQL | `codeql.yml` | push/PR/weekly | Security analysis of Actions |
+| Main Release | `main-release.yml` | push to main + manual | Markdown lint (badge source) |
+| CodeQL | `codeql.yml` | push to main + manual + weekly | Security analysis of Actions |
 | Snake | `snake.yml` | daily + manual | Contribution graph animation |
