@@ -63,3 +63,53 @@ jonathanperis/
 - Polyglot philosophy: always showcase multiple languages
 - Keep project table updated when adding/removing repos
 - Wiki documents each project's architecture and decisions
+
+---
+
+## Git Workflow
+
+- **All changes must go through a branch + PR strategy** — never commit directly to `main`
+- **PRs are rebase-only** — always use `--rebase` merge strategy
+- **Use `gh` CLI** for all GitHub operations (PRs, releases, checks, etc.)
+- Branch naming: `feat/`, `fix/`, `chore/`, `docs/` prefixes
+
+---
+
+## Repo-Wide Files
+
+The `.github` organization repo (`jonathanperis/.github`) already provides:
+- `CODE_OF_CONDUCT.md`
+- `CONTRIBUTING.md`
+- `SECURITY.md`
+- `FUNDING.yml`
+
+**Do not recreate these files in this repo.** They are inherited from the org-level `.github` repo.
+
+---
+
+## README Badges & Links
+
+The README must include these four badges (top of file, before the quote block):
+
+```markdown
+[![Build](https://github.com/jonathanperis/jonathanperis/actions/workflows/ci.yml/badge.svg)](...)
+[![CodeQL](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml/badge.svg)](...)
+[![GitHub release](https://img.shields.io/github/v/release/jonathanperis/jonathanperis?label=release)](...)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+```
+
+The README must include these bold links (before the snake animation):
+
+```markdown
+**[Live demo →](https://jonathanperis.github.io/)** | **[Documentation →](https://github.com/jonathanperis/jonathanperis/wiki)**
+```
+
+---
+
+## Workflows
+
+| Workflow | File | Trigger | Purpose |
+|----------|------|---------|---------|
+| Build | `ci.yml` | push/PR to main | Markdown lint (badge source) |
+| CodeQL | `codeql.yml` | push/PR/weekly | Security analysis of Actions |
+| Snake | `snake.yml` | daily + manual | Contribution graph animation |

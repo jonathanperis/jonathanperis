@@ -1,3 +1,8 @@
+[![Build](https://github.com/jonathanperis/jonathanperis/actions/workflows/ci.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml)
+[![GitHub release](https://img.shields.io/github/v/release/jonathanperis/jonathanperis?label=release)](https://github.com/jonathanperis/jonathanperis/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ```
 > "A Vinganca nunca e plena, mata a alma e a envenena." - Seu Madruga
 ```
@@ -151,6 +156,12 @@ All implementations share the same PostgreSQL stored procedures, Nginx config, a
 
 ---
 
+<p align="center">
+  <b><a href="https://jonathanperis.github.io/">Live demo →</a></b> | <b><a href="https://github.com/jonathanperis/jonathanperis/wiki">Documentation →</a></b>
+</p>
+
+---
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jonathanperis/jonathanperis/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jonathanperis/jonathanperis/output/github-contribution-grid-snake.svg" />
@@ -158,10 +169,6 @@ All implementations share the same PostgreSQL stored procedures, Nginx config, a
 </picture>
 
 ---
-
-<p align="center">
-  <a href="https://github.com/jonathanperis/jonathanperis/wiki"><b>Read the Wiki</b></a> for architecture notes, performance benchmarks, tech stack details, and every project listed above.
-</p>
 
 <p align="center">
   <sub>hint: visit <a href="https://jonathanperis.github.io/">jonathanperis.github.io</a> and try the Konami code</sub>
