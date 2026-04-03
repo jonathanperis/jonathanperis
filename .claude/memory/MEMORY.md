@@ -1,0 +1,1 @@
+- [Content Structure](content_structure.md) — README section layout, terminal aesthetic rules, update triggers, wiki scope
