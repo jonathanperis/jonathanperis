@@ -78,6 +78,7 @@ jonathanperis/
 ## Repo-Wide Files
 
 The `.github` organization repo (`jonathanperis/.github`) already provides:
+
 - `CODE_OF_CONDUCT.md`
 - `CONTRIBUTING.md`
 - `SECURITY.md`
