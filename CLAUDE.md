@@ -93,9 +93,8 @@ The `.github` organization repo (`jonathanperis/.github`) already provides:
 The README must include these four badges (top of file, before the quote block):
 
 ```markdown
-[![Build](https://github.com/jonathanperis/jonathanperis/actions/workflows/ci.yml/badge.svg)](...)
+[![Main Release](https://github.com/jonathanperis/jonathanperis/actions/workflows/main-release.yml/badge.svg)](...)
 [![CodeQL](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml/badge.svg)](...)
-[![GitHub release](https://img.shields.io/github/v/release/jonathanperis/jonathanperis?label=release)](...)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ```
 
