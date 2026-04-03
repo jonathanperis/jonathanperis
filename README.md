@@ -1,4 +1,4 @@
-[![Build](https://github.com/jonathanperis/jonathanperis/actions/workflows/ci.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/ci.yml)
+[![Main Release](https://github.com/jonathanperis/jonathanperis/actions/workflows/main-release.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/main-release.yml)
 [![CodeQL](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
