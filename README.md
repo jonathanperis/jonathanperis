@@ -1,6 +1,3 @@
-[![CodeQL](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ```
 > "A Vinganca nunca e plena, mata a alma e a envenena." - Seu Madruga
 ```
