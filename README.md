@@ -47,7 +47,7 @@ Cross-platform side scroller built with ReactLynx and TypeScript \
 </td></tr>
 <tr><td>
 
-**[super-mango-game](https://github.com/jonathanperis/super-mango-game)** \
+**[super-mango-editor](https://github.com/jonathanperis/super-mango-editor)** \
 Classic 2D side-scrolling platformer in pure C + SDL2, playable in the browser via WebAssembly \
 `32 render layers` `delta-time physics` `gamepad support` `parallax scrolling` `Emscripten` `pixel art`
 
