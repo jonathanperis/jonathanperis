@@ -27,7 +27,7 @@ jonathanperis/
     ├── About.md                # Extended bio
     ├── cpnucleo.md             # Project deep dive
     ├── rinha-de-backend.md     # Challenge documentation
-    ├── super-mango-game.md     # Game dev docs
+    ├── super-mango-editor.md     # Game dev docs
     ├── portfolio-site.md       # Portfolio site docs
     ├── blazor-mudblazor-starter.md
     ├── tech-stack.md           # Complete tech inventory
