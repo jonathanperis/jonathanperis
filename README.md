@@ -118,16 +118,17 @@ Portfolio site with a dark terminal aesthetic, Konami code easter egg, and a fak
 
 ### `$ cat benchmarks.md`
 
-The **Rinha de Backend** challenge requires handling concurrent credit/debit transactions across 2 API instances behind Nginx, all within **550MB total** and every response under **800ms**.
+The **Rinha de Backend** challenge: handle concurrent credit/debit transactions across 2 API instances behind Nginx, all within **550 MB total RAM** with every response under **800 ms p99** — same workload across **5 implementations**, same PostgreSQL stored procedures, same Nginx config, same [k6 stress harness](https://github.com/jonathanperis/rinha2-back-end-k6).
 
-| Implementation | Language | LOC | Notable characteristics |
-|----------------|----------|-----|-------------------------|
-| [.NET 9 + Native AOT](https://github.com/jonathanperis/rinha2-back-end-dotnet) | C# | ~200 | Native AOT + perfect score |
-| [Go](https://github.com/jonathanperis/rinha2-back-end-go) | Go | ~190 | Single-file service |
-| [Python](https://github.com/jonathanperis/rinha2-back-end-python) | Python | ~150 | Same API contract, compact implementation |
-| [Rust + Actix-web](https://github.com/jonathanperis/rinha2-back-end-rust) | Rust | ~140 | Single-file service + Actix-web |
+| Impl | Lang | Framework | DB driver | LOC | CI | Notable |
+|------|------|-----------|-----------|----:|----|---------|
+| [rinha2-back-end-dotnet](https://github.com/jonathanperis/rinha2-back-end-dotnet) | C# | ASP.NET 10 + FastEndpoints | Npgsql multiplexing | ~200 | [![CI](https://github.com/jonathanperis/rinha2-back-end-dotnet/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-dotnet/actions) | Native AOT, 60% RAM headroom |
+| [rinha2-back-end-go](https://github.com/jonathanperis/rinha2-back-end-go) | Go | chi | pgx v5 | ~190 | [![CI](https://github.com/jonathanperis/rinha2-back-end-go/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-go/actions) | Single-file service |
+| [rinha2-back-end-rust](https://github.com/jonathanperis/rinha2-back-end-rust) | Rust | Actix-web + Tokio | SQLx | ~140 | [![CI](https://github.com/jonathanperis/rinha2-back-end-rust/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-rust/actions) | Smallest LOC |
+| [rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python) | Python | FastAPI / asyncpg | asyncpg | ~150 | [![CI](https://github.com/jonathanperis/rinha2-back-end-python/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-python/actions) | Same API contract, compact |
+| [rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6) | JS (k6) | xk6 + Grafana | — | — | [![CI](https://github.com/jonathanperis/rinha2-back-end-k6/actions/workflows/codeql.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-k6/actions) | Shared stress harness |
 
-All implementations share the same PostgreSQL stored procedures, Nginx config, and [k6 stress test suite](https://github.com/jonathanperis/rinha2-back-end-k6).
+> All four service repos share a `Reusable — Deploy docs to GitHub Pages` workflow defined in [`jonathanperis/.github`](https://github.com/jonathanperis/.github/blob/main/.github/workflows/pages-docs-deploy.yml) — every consumer's deploy job is ~10 lines of YAML.
 
 ---
 
@@ -140,7 +141,7 @@ All implementations share the same PostgreSQL stored procedures, Nginx config, a
    Shell:     zsh + dotfiles
    Editor:    VS Code + JetBrains
    Uptime:    coding since 2015
-   Repos:     10 active, 0 abandoned
+   Repos:     13 active, 0 abandoned
    Packages:  NuGet, npm, Cargo, pip
    Theme:     Dark Terminal Aesthetic
 
