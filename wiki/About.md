@@ -2,7 +2,7 @@
 
 ## Background
 
-Jonathan Peris is a software engineer from **Itanhaem, Sao Paulo, Brazil**, building software under the banner of **Peris Studio**. Active on GitHub since **August 2015**, he maintains a portfolio of 10 active repositories spanning backend services, game development, frontend applications, and developer tooling.
+Jonathan Peris is a software engineer from **Itanhaem, São Paulo, Brazil**, building software under the banner of **Peris Studio**. Active on GitHub since **August 2015**, he maintains a portfolio of 10 active repositories spanning backend services, game development, frontend applications, and developer tooling.
 
 ## Engineering Philosophy
 
