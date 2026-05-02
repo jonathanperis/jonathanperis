@@ -13,19 +13,19 @@ Jonathan's repos share a common DNA: every project is **benchmarked**, **contain
 | Project | Domain | Primary Language | Description |
 |---------|--------|-----------------|-------------|
 | [cpnucleo](cpnucleo) | Backend / Architecture | C# | Production-grade .NET 9 microservices reference -- Clean Architecture, CQRS, DDD |
-| [super-mango-gameL(super-mango-game.md) | Game Development | C | 2D side-scrolling platformer with SDL2, playable via WebAssembly |
-| [Rinha de BackendL(rinha-de-backend.md) | Performance Engineering | C#, Rust, Go, Python | Same API challenge in 4 languages, stress tested to the limit |
-| [Portfolio SiteL(portfolio-site.md) | Frontend | TypeScript | Dark terminal-themed portfolio with Next.js 16, React 19, easter eggs |
-| [Blazor MudBlazor StarterL(blazor-mudblazor-starter.md) | Frontend / Template | C# | Blazor Server starter with MudBlazor, Docker, Azure CI/CD |
+| [super-mango-game](super-mango-game.md) | Game Development | C | 2D side-scrolling platformer with SDL2, playable via WebAssembly |
+| [Rinha de Backend](rinha-de-backend.md) | Performance Engineering | C#, Rust, Go, Python | Same API challenge in 4 languages, stress tested to the limit |
+| [Portfolio Site](portfolio-site.md) | Frontend | TypeScript | Dark terminal-themed portfolio with Next.js 16, React 19, easter eggs |
+| [Blazor MudBlazor Starter](blazor-mudblazor-starter.md) | Frontend / Template | C# | Blazor Server starter with MudBlazor, Docker, Azure CI/CD |
 
 ## Wiki Pages
 
 - **[About](About)** -- Background, philosophy, and technical interests
 - **[cpnucleo](cpnucleo)** -- Deep dive into the microservices reference architecture
-- **[super-mango-gameL(super-mango-game.md)** -- Game architecture, rendering pipeline, and WebAssembly build
-- **[Rinha de BackendL(rinha-de-backend.md)** -- The polyglot performance challenge across 4 languages
-- **[Portfolio SiteL(portfolio-site.md)** -- Next.js portfolio with terminal aesthetics and easter eggs
-- **[Blazor MudBlazor StarterL(blazor-mudblazor-starter.md)** -- Starter template with Material Design
+- **[super-mango-game](super-mango-game.md)** -- Game architecture, rendering pipeline, and WebAssembly build
+- **[Rinha de Backend](rinha-de-backend.md)** -- The polyglot performance challenge across 4 languages
+- **[Portfolio Site](portfolio-site.md)** -- Next.js portfolio with terminal aesthetics and easter eggs
+- **[Blazor MudBlazor Starter](blazor-mudblazor-starter.md)** -- Starter template with Material Design
 - **[Tech StackL(tech-stack.md)** -- Languages, frameworks, tools, and infrastructure
 - **[Architecture PatternsL(architecture-patterns.md)** -- Clean Architecture, CQRS, DDD, and design decisions
 - **[Performance EngineeringL(performance-engineering.md)** -- Benchmarking philosophy, k6 testing, and optimization techniques
