@@ -2,7 +2,7 @@
 
 > Classic 2D side-scrolling platformer built with C and SDL2
 
-**Repository**: [github.com/jonathanperis/super-mango-gameL(https://github.com/jonathanperis/super-mango-game.md) | **Language**: C
+**Repository**: [github.com/jonathanperis/super-mango-game](https://github.com/jonathanperis/super-mango-game) | **Language**: C
 
 ## Overview
 

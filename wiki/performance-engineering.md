@@ -59,7 +59,7 @@ The underdog that still meets the budget:
 
 ## Stress Testing with k6
 
-The [rinha2-back-end-k6L(https://github.com/jonathanperis/rinha2-back-end-k6.md) project provides the shared test infrastructure.
+The [rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6) project provides the shared test infrastructure.
 
 ### Architecture
 

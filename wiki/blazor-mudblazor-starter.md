@@ -2,7 +2,7 @@
 
 > Blazor Server starter template with MudBlazor Material Design components
 
-**Repository**: [github.com/jonathanperis/blazor-mudblazor-starterL(https://github.com/jonathanperis/blazor-mudblazor-starter.md) | **Stars**: 1 | **Language**: C#
+**Repository**: [github.com/jonathanperis/blazor-mudblazor-starter](https://github.com/jonathanperis/blazor-mudblazor-starter) | **Stars**: 1 | **Language**: C#
 
 ## Overview
 

@@ -18,7 +18,7 @@ Manage fictional bank clients with credit and debit transactions. Requirements:
 
 ## Implementations
 
-### C# / .NET 9 -- [rinha2-back-end-dotnetL(https://github.com/jonathanperis/rinha2-back-end-dotnet.md)
+### C# / .NET 9 -- [rinha2-back-end-dotnet](https://github.com/jonathanperis/rinha2-back-end-dotnet)
 
 The most optimized implementation. Key techniques:
 - **Native AOT** compilation -- no JIT, minimal startup time
@@ -30,7 +30,7 @@ The most optimized implementation. Key techniques:
 
 **Stars**: 3 | **LOC**: ~200 | **Languages**: C# (7,308B), PLpgSQL (8,408B), HTML (170,892B for reports)
 
-### Rust -- [rinha2-back-end-rustL(https://github.com/jonathanperis/rinha2-back-end-rust.md)
+### Rust -- [rinha2-back-end-rust](https://github.com/jonathanperis/rinha2-back-end-rust)
 
 Minimal and elegant:
 - **Actix-web 4** -- high-performance HTTP framework
@@ -40,7 +40,7 @@ Minimal and elegant:
 
 **Languages**: Rust (4,650B), PLpgSQL (8,408B)
 
-### Go -- [rinha2-back-end-goL(https://github.com/jonathanperis/rinha2-back-end-go.md)
+### Go -- [rinha2-back-end-go](https://github.com/jonathanperis/rinha2-back-end-go)
 
 Idiomatic Go approach:
 - **Go 1.23**
@@ -50,7 +50,7 @@ Idiomatic Go approach:
 
 **Stars**: 1 | **Languages**: Go (5,411B), PLpgSQL (8,408B)
 
-### Python -- [rinha2-back-end-pythonL(https://github.com/jonathanperis/rinha2-back-end-python.md)
+### Python -- [rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python)
 
 Proving Python can compete:
 - Same architecture with 2 API instances
@@ -65,11 +65,11 @@ All four implementations share:
 - **PostgreSQL stored procedures** (identical `PLpgSQL` across all repos)
 - **Nginx reverse proxy** configuration (round-robin between 2 instances)
 - **Docker Compose** orchestration
-- **k6 stress test suite** ([rinha2-back-end-k6L(https://github.com/jonathanperis/rinha2-back-end-k6.md))
+- **k6 stress test suite** ([rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6))
 
 ## Stress Testing -- rinha2-back-end-k6
 
-The [k6 test suiteL(https://github.com/jonathanperis/rinha2-back-end-k6.md) is its own project:
+The [k6 test suite](https://github.com/jonathanperis/rinha2-back-end-k6) is its own project:
 - **Custom k6 binary** built with Go (xk6-output-influxdb extension)
 - **Dev mode**: exports metrics to InfluxDB for Grafana dashboards in real time
 - **Prod mode**: generates standalone HTML reports
