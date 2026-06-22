@@ -36,6 +36,7 @@
 | **React 19** | jonathanperis.github.io |
 | **Next.js 16** | jonathanperis.github.io |
 | **Tailwind CSS v4** | jonathanperis.github.io |
+| **Astro 7** | Static GitHub Pages docs across service repos |
 
 ## Data Layer
 
@@ -57,7 +58,8 @@
 | **Nginx** | Reverse proxy and load balancing |
 | **GitHub Actions** | CI/CD pipelines |
 | **Azure Web App** | Cloud hosting (blazor-starter) |
-| **GitHub Pages** | Static site hosting (portfolio) |
+| **GitHub Pages** | Static site and docs hosting |
+| **Astro 7** | Static docs builds with Rust compiler, Vite 8, and default Sätteri Markdown |
 
 ## Observability
 
@@ -79,6 +81,7 @@
 ## .NET-Specific Optimizations
 
 Techniques used across .NET projects:
+
 - **Native AOT** -- ahead-of-time compilation, no JIT
 - **Trimming** -- dead code elimination
 - **Source generators** -- zero-reflection JSON serialization
@@ -88,6 +91,7 @@ Techniques used across .NET projects:
 ## Architecture Patterns
 
 Used consistently across projects:
+
 - **Clean Architecture** (cpnucleo)
 - **CQRS** -- Command Query Responsibility Segregation (cpnucleo)
 - **DDD** -- Domain-Driven Design (cpnucleo)

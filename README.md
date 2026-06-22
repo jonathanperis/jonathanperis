@@ -107,8 +107,9 @@ Portfolio site with a dark terminal aesthetic, Konami code easter egg, and a fak
 | Systems               | Go (chi, pgx), Rust (Actix-web, Tokio, SQLx),   |
 |                       | C (SDL2, Emscripten/WASM)                        |
 | Frontend              | Blazor WASM, React 19, ReactLynx, Next.js 16,    |
-|                       | TypeScript, Tailwind CSS, MudBlazor              |
-| Infrastructure        | Docker, Nginx, PostgreSQL, GitHub Actions        |
+|                       | TypeScript, Tailwind CSS, MudBlazor, Astro 7     |
+| Infrastructure        | Docker, Nginx, PostgreSQL, GitHub Actions,       |
+|                       | GitHub Pages                                     |
 | Observability         | OpenTelemetry, Grafana, InfluxDB, k6             |
 | Architecture          | Clean Architecture, CQRS, DDD, Microservices     |
 +-----------------------+--------------------------------------------------+
@@ -128,7 +129,7 @@ The **Rinha de Backend** challenge: handle concurrent credit/debit transactions 
 | [rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python) | Python | FastAPI / asyncpg | asyncpg | ~150 | [![CI](https://github.com/jonathanperis/rinha2-back-end-python/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-python/actions) | Same API contract, compact |
 | [rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6) | JS (k6) | xk6 + Grafana | — | — | [![CI](https://github.com/jonathanperis/rinha2-back-end-k6/actions/workflows/codeql.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-k6/actions) | Shared stress harness |
 
-> All four service repos share a `Reusable — Deploy docs to GitHub Pages` workflow defined in [`jonathanperis/.github`](https://github.com/jonathanperis/.github/blob/main/.github/workflows/pages-docs-deploy.yml) — every consumer's deploy job is ~10 lines of YAML.
+> All four service repos share a `Reusable — Deploy docs to GitHub Pages` workflow defined in [`jonathanperis/.github`](https://github.com/jonathanperis/.github/blob/main/.github/workflows/pages-docs-deploy.yml) — every consumer's deploy job is ~10 lines of YAML. Astro docs surfaces should follow the [Astro 7 static Pages standard](wiki/astro-pages-standard.md): Node 24 in Actions, Astro 7 defaults, and production-base output checks.
 
 ---
 

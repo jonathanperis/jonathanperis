@@ -26,6 +26,7 @@ Jonathan's repos share a common DNA: every project is **benchmarked**, **contain
 - **[Rinha de Backend](rinha-de-backend.md)** -- The polyglot performance challenge across 4 languages
 - **[Portfolio Site](portfolio-site.md)** -- Next.js portfolio with terminal aesthetics and easter eggs
 - **[Blazor MudBlazor Starter](blazor-mudblazor-starter.md)** -- Starter template with Material Design
-- **[Tech StackL(tech-stack.md)** -- Languages, frameworks, tools, and infrastructure
-- **[Architecture PatternsL(architecture-patterns.md)** -- Clean Architecture, CQRS, DDD, and design decisions
-- **[Performance EngineeringL(performance-engineering.md)** -- Benchmarking philosophy, k6 testing, and optimization techniques
+- **[Tech Stack](tech-stack.md)** -- Languages, frameworks, tools, and infrastructure
+- **[Astro 7 Pages Standard](astro-pages-standard.md)** -- Static GitHub Pages docs upgrade baseline
+- **[Architecture Patterns](architecture-patterns.md)** -- Clean Architecture, CQRS, DDD, and design decisions
+- **[Performance Engineering](performance-engineering.md)** -- Benchmarking philosophy, k6 testing, and optimization techniques
