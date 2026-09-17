@@ -38,6 +38,7 @@ The most aggressively optimized implementation -- uses **60% less RAM** than the
 ### Rust (Actix-web + Tokio)
 
 Naturally memory-efficient due to zero-cost abstractions:
+
 - **Actix-web** -- one of the fastest HTTP frameworks in any language
 - **Tokio** -- async runtime with work-stealing scheduler
 - **SQLx** -- compile-time verified SQL queries (catches errors before runtime)
@@ -46,6 +47,7 @@ Naturally memory-efficient due to zero-cost abstractions:
 ### Go (chi + pgx)
 
 Go's simplicity works in its favor:
+
 - **chi/v5** -- lightweight router, minimal overhead
 - **pgx/v5** -- low-level PostgreSQL driver (more efficient than database/sql)
 - **Goroutines** -- lightweight concurrency without thread-per-request overhead
@@ -54,6 +56,7 @@ Go's simplicity works in its favor:
 ### Python
 
 The underdog that still meets the budget:
+
 - **Stored procedures** do the heavy lifting -- Python is just the HTTP layer
 - Demonstrates that language speed matters less when the database is doing the real work
 
@@ -76,11 +79,13 @@ k6 (custom binary with xk6-output-influxdb)
 ### Two Modes
 
 **Dev Mode** -- Real-time Observability
+
 - k6 exports metrics to InfluxDB
 - Grafana dashboards show request rates, latencies, error rates in real time
 - Useful for identifying bottlenecks during development
 
 **Prod Mode** -- Standalone Reports
+
 - k6 generates HTML reports
 - No external dependencies needed
 - Reports deployed to GitHub repos for public visibility
@@ -94,6 +99,7 @@ The test suite uses a custom-built k6 binary compiled with Go, including the `xk
 ### OpenTelemetry (cpnucleo, rinha2-dotnet)
 
 Distributed tracing and metrics collection integrated at the application level:
+
 - Request tracing across service boundaries
 - Database query timing
 - Custom business metrics
@@ -101,6 +107,7 @@ Distributed tracing and metrics collection integrated at the application level:
 ### Grafana + InfluxDB (rinha2-k6)
 
 Time-series visualization for stress test metrics:
+
 - Requests per second
 - Response time percentiles (p50, p95, p99)
 - Error rates

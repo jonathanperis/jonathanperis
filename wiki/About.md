@@ -21,6 +21,7 @@ Every backend project ships with Docker Compose, Nginx reverse proxy configurati
 ### Cross-Language Fluency Over Framework Expertise
 
 While C# / .NET is the primary stack, Jonathan deliberately maintains working proficiency across ecosystems:
+
 - **C#/.NET** -- primary language, deep expertise in ASP.NET, EF Core, Blazor, Native AOT
 - **Rust** -- systems-level work with Actix-web and Tokio
 - **Go** -- minimalist API services with chi and pgx
@@ -36,7 +37,7 @@ While C# / .NET is the primary stack, Jonathan deliberately maintains working pr
 
 ## Contact
 
-- **Email**: jperis.silva@gmail.com
+- **Email**: <jperis.silva@gmail.com>
 - **Portfolio**: [jonathanperis.github.io](https://jonathanperis.github.io)
 - **Twitter/X**: [@jperis_silva](https://twitter.com/jperis_silva)
 - **GitHub**: [jonathanperis](https://github.com/jonathanperis)

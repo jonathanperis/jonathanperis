@@ -13,17 +13,20 @@ This isn't a generic template -- it's a custom-built site with dynamic content, 
 ## Features
 
 ### Visual Design
+
 - **Dark terminal aesthetic** -- monospace fonts, terminal-inspired color palette
 - **Typing effects** -- simulated terminal input animations
 - **Scroll animations** -- elements animate into view on scroll
 
 ### Dynamic Content
+
 - **GitHub Pinned Repos** -- fetched dynamically via GitHub's GraphQL API, so the portfolio always reflects current work
 - **Resume page** at `/resume` -- print-optimized for PDF export
 
 ### Easter Eggs
 
 Enter the **Konami Code** (Up, Up, Down, Down, Left, Right, Left, Right, B, A) to unlock a fake terminal overlay with commands:
+
 - `neofetch` -- displays system info in the classic format
 - `sudo hire me` -- you know what this does
 - `git log` -- shows commit history

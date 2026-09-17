@@ -11,6 +11,7 @@ A fully-featured 2D platformer written in pure C using SDL2, with a WebAssembly 
 ## Game Features
 
 ### Rendering Engine
+
 - **32 render layers** -- proper depth sorting for backgrounds, midgrounds, entities, and foreground elements
 - **Parallax scrolling** -- multiple background layers moving at different speeds for depth illusion
 - **Animated water** with visual effects
@@ -18,6 +19,7 @@ A fully-featured 2D platformer written in pure C using SDL2, with a WebAssembly 
 - **HUD** with lives, hearts, coins, and stars display
 
 ### Physics & Gameplay
+
 - **Delta-time physics** -- frame-rate independent movement
 - **Gamepad support** alongside keyboard input
 - **Multiple enemy types**: spiders, jumping spiders, birds, fish, blue flames
@@ -26,6 +28,7 @@ A fully-featured 2D platformer written in pure C using SDL2, with a WebAssembly 
 - **Traversal mechanics**: bouncepads, climbable vines/ladders/ropes, crumble bridges, rails
 
 ### Game Systems
+
 - **Lives and hearts** health system
 - **Start menu** with navigation
 - **Debug overlay** for development
@@ -53,6 +56,7 @@ Init -> Load Assets -> Game Loop [ Input -> Update -> Render ] -> Cleanup
 ```
 
 Key design aspects:
+
 - **Layer-based rendering**: 32 distinct render layers allow fine-grained control over draw order
 - **Entity system**: enemies, hazards, and collectibles share a common update/render interface
 - **Asset management**: textures, audio, and level data loaded from files
