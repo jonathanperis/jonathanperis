@@ -1,4 +1,4 @@
-# jonathanperis — Claude Code Guide
+# jonathanperis — Agent Guide
 
 GitHub profile README repository. Terminal-themed developer portfolio showcasing microservices, game dev, and polyglot performance engineering.
 
