@@ -11,6 +11,7 @@ This is polyglot engineering at its most honest: same spec, same infrastructure,
 ## The Challenge
 
 Manage fictional bank clients with credit and debit transactions. Requirements:
+
 - **2 API instances** behind an Nginx load balancer
 - **Total memory budget**: 550MB (for everything -- API instances, database, proxy)
 - **Every response** must complete in under **800ms**
@@ -21,6 +22,7 @@ Manage fictional bank clients with credit and debit transactions. Requirements:
 ### C# / .NET 9 -- [rinha2-back-end-dotnet](https://github.com/jonathanperis/rinha2-back-end-dotnet)
 
 The most optimized implementation. Key techniques:
+
 - **Native AOT** compilation -- no JIT, minimal startup time
 - **Trimming** -- dead code elimination for smaller binaries
 - **Npgsql connection pooling with multiplexing** -- multiple queries over fewer TCP connections
@@ -33,6 +35,7 @@ The most optimized implementation. Key techniques:
 ### Rust -- [rinha2-back-end-rust](https://github.com/jonathanperis/rinha2-back-end-rust)
 
 Minimal and elegant:
+
 - **Actix-web 4** -- high-performance HTTP framework
 - **SQLx 0.7** -- compile-time checked SQL queries
 - **Tokio** -- async runtime
@@ -43,6 +46,7 @@ Minimal and elegant:
 ### Go -- [rinha2-back-end-go](https://github.com/jonathanperis/rinha2-back-end-go)
 
 Idiomatic Go approach:
+
 - **Go 1.23**
 - **chi/v5** -- lightweight router
 - **pgx/v5** -- PostgreSQL driver with connection pooling
@@ -53,6 +57,7 @@ Idiomatic Go approach:
 ### Python -- [rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python)
 
 Proving Python can compete:
+
 - Same architecture with 2 API instances
 - PostgreSQL stored procedures handle the heavy lifting
 - ~150 lines of application code
@@ -62,6 +67,7 @@ Proving Python can compete:
 ## Shared Infrastructure
 
 All four implementations share:
+
 - **PostgreSQL stored procedures** (identical `PLpgSQL` across all repos)
 - **Nginx reverse proxy** configuration (round-robin between 2 instances)
 - **Docker Compose** orchestration
@@ -70,6 +76,7 @@ All four implementations share:
 ## Stress Testing -- rinha2-back-end-k6
 
 The [k6 test suite](https://github.com/jonathanperis/rinha2-back-end-k6) is its own project:
+
 - **Custom k6 binary** built with Go (xk6-output-influxdb extension)
 - **Dev mode**: exports metrics to InfluxDB for Grafana dashboards in real time
 - **Prod mode**: generates standalone HTML reports

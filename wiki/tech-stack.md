@@ -79,6 +79,7 @@
 ## .NET-Specific Optimizations
 
 Techniques used across .NET projects:
+
 - **Native AOT** -- ahead-of-time compilation, no JIT
 - **Trimming** -- dead code elimination
 - **Source generators** -- zero-reflection JSON serialization
@@ -88,6 +89,7 @@ Techniques used across .NET projects:
 ## Architecture Patterns
 
 Used consistently across projects:
+
 - **Clean Architecture** (cpnucleo)
 - **CQRS** -- Command Query Responsibility Segregation (cpnucleo)
 - **DDD** -- Domain-Driven Design (cpnucleo)
