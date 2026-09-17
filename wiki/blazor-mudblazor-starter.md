@@ -31,6 +31,7 @@ A ready-to-use Blazor Server template pre-configured with MudBlazor 8.3, the Mat
 ## Use Case
 
 This template is useful when you need to:
+
 - Spin up a new Blazor Server app with Material Design quickly
 - Have Docker and Azure deployment ready from the start
 - Start with working CRUD patterns (dialogs, forms, tables)

@@ -41,6 +41,7 @@ Infrastructure Layer (EF Core + Dapper, PostgreSQL)
 ### Domain Model
 
 The system models a project management domain:
+
 - **Organizations** -- top-level grouping
 - **Projects** -- belong to organizations
 - **Assignments** -- work items within projects
