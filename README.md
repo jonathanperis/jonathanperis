@@ -1,3 +1,7 @@
+[![Main Release](https://github.com/jonathanperis/jonathanperis/actions/workflows/main-release.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/main-release.yml)
+[![CodeQL](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml/badge.svg)](https://github.com/jonathanperis/jonathanperis/actions/workflows/codeql.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ```
 > "A Vinganca nunca e plena, mata a alma e a envenena." - Seu Madruga
 ```
@@ -7,91 +11,76 @@ var jonathan = new Developer
 {
     Location  = "Itanhaem, SP, Brazil",
     Company   = "Peris Studio",
-    Focus     = new[] { "Microservices", "Clean Architecture", "Performance Engineering" },
-    Languages = new[] { "C#", "Go", "Rust", "Python", "TypeScript", "C" },
-    Hobbies   = new[] { "Game Dev", "Load Testing Everything", "Proving .NET Is Fast" }
+    Focus     = new[] { "Learning by Building", ".NET", "Game Dev", "Simulation" },
+    Languages = new[] { "C#", "C", "TypeScript", "Python", "Go", "Rust", "x86-64 ASM" },
+    Hobbies   = new[] { "Game Dev", "Orbital Mechanics", "Load Testing Everything" }
 };
 ```
 
 ### `$ whoami`
 
-Software engineer focused on backend systems, benchmarking, and low-level game work. I build services, measure them, and then rebuild them in other languages to compare the results.
+Software engineer building hands-on learning projects: backend systems, games, and physics simulations. I like code you can inspect, experiments you can repeat, and tradeoffs you can measure.
 
-I keep the stack centered on .NET, but I also use Go, Rust, Python, TypeScript/ReactLynx, and C/SDL2 for projects that fit those tools better.
+.NET is my backend home base. My current work also explores C11/raylib and WebAssembly, orbital mechanics, and TypeScript with Astro, React, and ReactLynx. Performance engineering connects it all: build, observe, compare, explain.
+
+### `$ cat focus.md`
+
+- **Learn by building:** turn working applications into guided labs, with readable source, repeatable experiments, and documentation alongside the code.
+- **Explore games and physics:** build a platformer and visual level editor, then investigate numerical methods and orbital motion through native and browser simulations.
+- **Compare .NET approaches:** study REST/gRPC, EF Core/Dapper, authentication, observability, and Blazor UI behavior through executable examples.
+- **Make projects easy to explore:** ship playable demos, Astro documentation, and CI checks that keep published claims aligned with the implementation.
 
 ---
 
-### `$ ls ~/projects --sort=stars`
+### `$ ls ~/projects/active`
 
 <table>
 <tr><td>
 
-**[cpnucleo](https://github.com/jonathanperis/cpnucleo)** `★ 8` \
-Production-grade .NET 9 microservices reference architecture \
-`Clean Architecture` `CQRS` `DDD` `gRPC` `FastEndpoints` `Blazor WASM` `Native AOT` `Docker` `PostgreSQL` `OpenTelemetry`
+**[super-mango-editor](https://github.com/jonathanperis/super-mango-editor)** \
+C11/raylib platformer, visual TOML level editor, and Sandbox School for learning game development. \
+`C11` `raylib` `Emscripten` `WebAssembly` `level editor` `learning labs` \
+[Play](https://jonathanperis.github.io/super-mango-editor/) · [Learn](https://jonathanperis.github.io/super-mango-editor/docs/learning-path/)
 
 </td></tr>
 <tr><td>
 
-**[blazor-mudblazor-starter](https://github.com/jonathanperis/blazor-mudblazor-starter)** `★ 1` \
-Blazor Server starter template with MudBlazor, multi-arch Docker, AOT + trimming \
-`MudBlazor 8.3` `.NET 9` `Azure deployment` `CI/CD`
+**[solar-system-simulator](https://github.com/jonathanperis/solar-system-simulator)** \
+Physics-first orbital mechanics lab with a shared C core for native, WebAssembly, and headless runs; reproducible A/B experiments and a source-backed small-body atlas. \
+`C11` `raylib` `WebAssembly` `numerical methods` `Verlet / Euler` `NASA / JPL data` \
+[Simulate](https://jonathanperis.github.io/solar-system-simulator/simulator/) · [Compare experiments](https://jonathanperis.github.io/solar-system-simulator/compare/)
+
+</td></tr>
+<tr><td>
+
+**[cpnucleo](https://github.com/jonathanperis/cpnucleo)** \
+Hands-on .NET 10 project-management lab: compare REST/gRPC and EF Core/Dapper, explore architecture tradeoffs, and verify behavior with contract tests. \
+`FastEndpoints` `PostgreSQL` `OpenTelemetry` `Astro` `TypeScript` `Docker` \
+[Learning paths](https://jonathanperis.github.io/cpnucleo/docs/learning-lab/)
+
+</td></tr>
+<tr><td>
+
+**[blazor-mudblazor-starter](https://github.com/jonathanperis/blazor-mudblazor-starter)** \
+Local-first .NET 10 learning sandbox for Blazor Server and MudBlazor: state, forms, APIs, persistence, authentication, localization, and CSV workflows. \
+`Blazor Server` `MudBlazor` `EF Core` `SQLite` `Docker` `guided labs` \
+[Learning guide](https://jonathanperis.github.io/blazor-mudblazor-starter/docs/)
 
 </td></tr>
 <tr><td>
 
 **[speedy-bird-lynx](https://github.com/jonathanperis/speedy-bird-lynx)** \
-Cross-platform side scroller built with ReactLynx and TypeScript \
-`ReactLynx` `TypeScript` `2D game` `cross-platform`
-
-</td></tr>
-<tr><td>
-
-**[super-mango-editor](https://github.com/jonathanperis/super-mango-editor)** \
-Classic 2D side-scrolling platformer in pure C + SDL2, playable in the browser via WebAssembly \
-`32 render layers` `delta-time physics` `gamepad support` `parallax scrolling` `Emscripten` `pixel art`
-
-</td></tr>
-<tr><td>
-
-**[rinha2-back-end-dotnet](https://github.com/jonathanperis/rinha2-back-end-dotnet)** `★ 3` \
-Rinha de Backend challenge -- ASP.NET 9, Native AOT, 60% less RAM than allowed \
-`< 800ms responses` `250MB RAM ceiling` `PostgreSQL stored functions` `Npgsql multiplexing`
-
-</td></tr>
-<tr><td>
-
-**[rinha2-back-end-go](https://github.com/jonathanperis/rinha2-back-end-go)** \
-Rinha de Backend implementation in Go, kept to a compact single-file service at ~190 lines \
-`chi router` `pgx` `single-file` `compact`
-
-</td></tr>
-<tr><td>
-
-**[rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python)** \
-Rinha de Backend implementation in Python for the same transaction workload \
-`Python` `HTTP API` `database-backed` `benchmarking`
-
-</td></tr>
-<tr><td>
-
-**[rinha2-back-end-rust](https://github.com/jonathanperis/rinha2-back-end-rust)** \
-Rinha de Backend implementation in Rust, ~140 lines and backed by Actix-web \
-`Actix-web` `Tokio` `SQLx` `single-file`
-
-</td></tr>
-<tr><td>
-
-**[rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6)** \
-Shared stress test suite for all Rinha implementations -- k6 + InfluxDB + Grafana dashboards \
-`load testing` `HTML reports` `custom xk6 binary`
+Flappy Bird-inspired arcade game exploring ReactLynx native UI: Android host, Lynx web preview, and a separate playable Canvas demo. iOS host source is a scaffold. \
+`ReactLynx` `TypeScript` `Android` `Canvas` `Astro` \
+[Play](https://jonathanperis.github.io/speedy-bird-lynx/) · [Docs](https://jonathanperis.github.io/speedy-bird-lynx/docs/)
 
 </td></tr>
 <tr><td>
 
 **[jonathanperis.github.io](https://github.com/jonathanperis/jonathanperis.github.io)** \
-Portfolio site with a dark terminal aesthetic, Konami code easter egg, and a fake terminal \
-`Next.js 16` `React 19` `TypeScript` `Tailwind CSS v4` `portfolio`
+Static portfolio and print-friendly resume, with build-time GitHub project data and a terminal-inspired UI. \
+`Astro` `React` `TypeScript` `Tailwind CSS` `GitHub Pages` \
+[Visit](https://jonathanperis.github.io/) · [Resume](https://jonathanperis.github.io/resume/)
 
 </td></tr>
 </table>
@@ -101,34 +90,36 @@ Portfolio site with a dark terminal aesthetic, Konami code easter egg, and a fak
 ### `$ cat /proc/tech_stack`
 
 ```
-+-----------------------+--------------------------------------------------+
-| Backend               | .NET 9, ASP.NET, FastEndpoints, gRPC, EF Core,  |
-|                       | Dapper, Native AOT                               |
-| Systems               | Go (chi, pgx), Rust (Actix-web, Tokio, SQLx),   |
-|                       | C (SDL2, Emscripten/WASM)                        |
-| Frontend              | Blazor WASM, React 19, ReactLynx, Next.js 16,    |
-|                       | TypeScript, Tailwind CSS, MudBlazor              |
-| Infrastructure        | Docker, Nginx, PostgreSQL, GitHub Actions        |
-| Observability         | OpenTelemetry, Grafana, InfluxDB, k6             |
-| Architecture          | Clean Architecture, CQRS, DDD, Microservices     |
-+-----------------------+--------------------------------------------------+
++-------------------+----------------------------------------------------+
+| Backend           | .NET 10, FastEndpoints, REST/gRPC, EF Core, Dapper |
+| Games & physics   | C11, raylib, Emscripten, WebAssembly, TOML         |
+| Web & UI          | Astro, React, ReactLynx, TypeScript, Tailwind CSS  |
+| .NET UI           | Blazor Server, MudBlazor                           |
+| Data & delivery   | PostgreSQL, SQLite, Docker, GitHub Actions, Bun    |
+| Observability     | OpenTelemetry, Grafana, k6                         |
+| Practice          | Learning labs, contract tests, reproducible runs   |
++-------------------+----------------------------------------------------+
 ```
 
 ---
 
-### `$ cat benchmarks.md`
+### `$ ls ~/projects/archive/performance`
 
-The **Rinha de Backend** challenge: handle concurrent credit/debit transactions across 2 API instances behind Nginx, all within **550 MB total RAM** with every response under **800 ms p99** — same workload across **5 implementations**, same PostgreSQL stored procedures, same Nginx config, same [k6 stress harness](https://github.com/jonathanperis/rinha2-back-end-k6).
+My **Rinha de Backend** repositories are archived performance experiments. They cover transaction APIs in the 2024/Q1 challenge and fraud detection in the 2026 challenge, from managed runtimes down to raw sockets and assembly.
 
-| Impl | Lang | Framework | DB driver | LOC | CI | Notable |
-|------|------|-----------|-----------|----:|----|---------|
-| [rinha2-back-end-dotnet](https://github.com/jonathanperis/rinha2-back-end-dotnet) | C# | ASP.NET 10 + FastEndpoints | Npgsql multiplexing | ~200 | [![CI](https://github.com/jonathanperis/rinha2-back-end-dotnet/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-dotnet/actions) | Native AOT, 60% RAM headroom |
-| [rinha2-back-end-go](https://github.com/jonathanperis/rinha2-back-end-go) | Go | chi | pgx v5 | ~190 | [![CI](https://github.com/jonathanperis/rinha2-back-end-go/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-go/actions) | Single-file service |
-| [rinha2-back-end-rust](https://github.com/jonathanperis/rinha2-back-end-rust) | Rust | Actix-web + Tokio | SQLx | ~140 | [![CI](https://github.com/jonathanperis/rinha2-back-end-rust/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-rust/actions) | Smallest LOC |
-| [rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python) | Python | FastAPI / asyncpg | asyncpg | ~150 | [![CI](https://github.com/jonathanperis/rinha2-back-end-python/actions/workflows/build-check.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-python/actions) | Same API contract, compact |
-| [rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6) | JS (k6) | xk6 + Grafana | — | — | [![CI](https://github.com/jonathanperis/rinha2-back-end-k6/actions/workflows/codeql.yml/badge.svg)](https://github.com/jonathanperis/rinha2-back-end-k6/actions) | Shared stress harness |
+| Challenge | Repository | What I explored |
+|-----------|------------|-----------------|
+| 2026 | [rinha4-back-end-dotnet](https://github.com/jonathanperis/rinha4-back-end-dotnet) | .NET 10 NativeAOT, raw HTTP/1, vector search |
+| 2026 | [rinha4-back-end-c](https://github.com/jonathanperis/rinha4-back-end-c) | C, epoll, memory-mapped indexes, nearest-neighbor search |
+| 2026 | [rinha4-yolo-mode](https://github.com/jonathanperis/rinha4-yolo-mode) | x86-64 assembly API and payload-derived fraud heuristics |
+| 2026 | [rinha4-lb-yolo-mode](https://github.com/jonathanperis/rinha4-lb-yolo-mode) | Assembly/C load balancers, Unix sockets, SCM_RIGHTS |
+| 2024/Q1 | [rinha2-back-end-dotnet](https://github.com/jonathanperis/rinha2-back-end-dotnet) | ASP.NET Core Minimal API, Native AOT, Npgsql multiplexing |
+| 2024/Q1 | [rinha2-back-end-go](https://github.com/jonathanperis/rinha2-back-end-go) | Go, chi, pgx, PostgreSQL stored procedures |
+| 2024/Q1 | [rinha2-back-end-rust](https://github.com/jonathanperis/rinha2-back-end-rust) | Rust, Actix-web, Tokio, SQLx |
+| 2024/Q1 | [rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python) | Python, Flask, Gunicorn, psycopg2 |
+| 2024/Q1 | [rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6) | Shared load harness, xk6, InfluxDB, Grafana |
 
-> All four service repos share a `Reusable — Deploy docs to GitHub Pages` workflow defined in [`jonathanperis/.github`](https://github.com/jonathanperis/.github/blob/main/.github/workflows/pages-docs-deploy.yml) — every consumer's deploy job is ~10 lines of YAML.
+The lesson I carry forward: compare correctness, latency, and resource use under explicit constraints. Benchmark reports and implementation details live with each project.
 
 ---
 
@@ -141,8 +132,8 @@ The **Rinha de Backend** challenge: handle concurrent credit/debit transactions 
    Shell:     zsh + dotfiles
    Editor:    VS Code + JetBrains
    Uptime:    coding since 2015
-   Repos:     13 active, 0 abandoned
-   Packages:  NuGet, npm, Cargo, pip
+   Loop:      build, inspect, measure, explain
+   Packages:  NuGet, Bun, Cargo, pip
    Theme:     Dark Terminal Aesthetic
 
    Contact:   jperis.silva@gmail.com
