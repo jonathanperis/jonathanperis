@@ -90,7 +90,7 @@ The `.github` organization repo (`jonathanperis/.github`) already provides:
 
 ## README Badges & Links
 
-The README must include these four badges (top of file, before the quote block):
+The README must include these three badges (top of file, before the quote block):
 
 ```markdown
 [![Main Release](https://github.com/jonathanperis/jonathanperis/actions/workflows/main-release.yml/badge.svg)](...)
