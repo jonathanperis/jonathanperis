@@ -1,30 +1,25 @@
 # Tech Stack
 
-> A comprehensive map of languages, frameworks, and tools used across all projects
+> A map of languages, frameworks, and tools used across the public projects
 
 ## Languages
 
 | Language | Projects | Role |
 |----------|----------|------|
-| **C#** | cpnucleo, rinha2-dotnet, blazor-starter | Primary language -- backend services, microservices, Blazor UI |
-| **C** | super-mango-game | Game development with SDL2 and WebAssembly |
-| **Rust** | rinha2-rust | High-performance backend services |
-| **Go** | rinha2-go | Lightweight API services |
-| **Python** | rinha2-python, super-mango-game (tooling) | Backend services, build tooling |
-| **TypeScript** | jonathanperis.github.io | Frontend with React/Next.js |
-| **JavaScript** | rinha2-k6 | k6 load testing scripts |
-| **PLpgSQL** | all rinha2 repos | PostgreSQL stored procedures |
-| **Shell** | cpnucleo, rinha2-k6 | Build scripts, Docker entrypoints |
+| **C#** | cpnucleo, csharpc, blazor-mudblazor-starter | Primary language -- backend labs, an LLVM front-end, Blazor UI |
+| **C** | super-mango-editor, solar-system-simulator | Games and orbital simulation with raylib and WebAssembly |
+| **Bend 2** | jonlib | Graphics and math library working toward raylib parity |
+| **TypeScript** | speedy-bird-lynx, jonathanperis.github.io | ReactLynx game and the Astro portfolio |
+| **Python** | jonlib, super-mango-editor, solar-system-simulator, cpnucleo, csharpc | Tooling and tests alongside the C, C#, and Bend sources |
+| **PLpgSQL** | cpnucleo | PostgreSQL functions in the .NET lab |
+| **Shell** | cpnucleo, csharpc, jonlib | Build scripts, Docker entrypoints |
 
 ## Backend Frameworks
 
 | Framework | Language | Used In |
 |-----------|----------|---------|
-| **ASP.NET 9** | C# | rinha2-dotnet |
 | **FastEndpoints** | C# | cpnucleo |
 | **gRPC** | C# | cpnucleo |
-| **Actix-web 4** | Rust | rinha2-rust |
-| **chi/v5** | Go | rinha2-go |
 
 ## Frontend Frameworks
 
@@ -32,66 +27,65 @@
 |-----------|---------|
 | **Blazor WebAssembly** | cpnucleo |
 | **Blazor Server** | blazor-mudblazor-starter |
-| **MudBlazor** | cpnucleo, blazor-starter |
-| **React 19** | jonathanperis.github.io |
-| **Next.js 16** | jonathanperis.github.io |
-| **Tailwind CSS v4** | jonathanperis.github.io |
+| **MudBlazor** | cpnucleo, blazor-mudblazor-starter |
+| **Astro** | jonathanperis.github.io, cpnucleo |
+| **React** | jonathanperis.github.io |
+| **ReactLynx** | speedy-bird-lynx |
+| **Tailwind CSS** | jonathanperis.github.io |
 
 ## Data Layer
 
 | Technology | Purpose | Used In |
 |------------|---------|---------|
-| **Entity Framework Core 9** | ORM for writes | cpnucleo |
+| **Entity Framework Core** | ORM for writes | cpnucleo |
 | **Dapper** | Micro-ORM for reads | cpnucleo |
-| **Npgsql** | PostgreSQL driver (.NET) | rinha2-dotnet |
-| **SQLx 0.7** | Compile-time SQL (Rust) | rinha2-rust |
-| **pgx/v5** | PostgreSQL driver (Go) | rinha2-go |
-| **PostgreSQL** | Primary database | all backend projects |
+| **PostgreSQL** | Primary database | cpnucleo |
+| **SQLite** | Local persistence | blazor-mudblazor-starter |
 
 ## Infrastructure & DevOps
 
 | Tool | Purpose |
 |------|---------|
-| **Docker** | Containerization across all projects |
+| **Docker** | Containerization across backend and learning labs |
 | **Docker Compose** | Multi-container orchestration |
-| **Nginx** | Reverse proxy and load balancing |
 | **GitHub Actions** | CI/CD pipelines |
-| **Azure Web App** | Cloud hosting (blazor-starter) |
-| **GitHub Pages** | Static site hosting (portfolio) |
+| **GitHub Pages** | Static site hosting for the portfolio and project demos |
 
 ## Observability
 
 | Tool | Purpose | Used In |
 |------|---------|---------|
-| **OpenTelemetry** | Distributed tracing and metrics | cpnucleo, rinha2-dotnet |
-| **Grafana** | Dashboard visualization | rinha2-k6 |
-| **InfluxDB** | Time-series metrics storage | rinha2-k6 |
-| **k6** | Load and stress testing | rinha2-k6 |
+| **OpenTelemetry** | Distributed tracing and metrics | cpnucleo |
 
 ## Game Development
 
 | Tool | Purpose |
 |------|---------|
-| **SDL2** | Cross-platform graphics, input, audio |
-| **Emscripten** | C -> WebAssembly compilation |
-| **Makefile** | Build system for C project |
+| **raylib** | Cross-platform graphics, input, and audio |
+| **Emscripten** | C to WebAssembly compilation |
+| **Makefile** | Build system for the C projects |
 
-## .NET-Specific Optimizations
+## Compilers
+
+| Tool | Purpose | Used In |
+|------|---------|---------|
+| **Roslyn** | C# parsing and compilation front-end | csharpc |
+| **LLVM** | Native code generation | csharpc |
+
+## .NET-Specific Practices
 
 Techniques used across .NET projects:
 
-- **Native AOT** -- ahead-of-time compilation, no JIT
-- **Trimming** -- dead code elimination
-- **Source generators** -- zero-reflection JSON serialization
-- **Connection pooling with multiplexing** -- Npgsql optimization
-- **Architecture tests** -- NetArchTest enforcing layer boundaries
+- **Native AOT** -- ahead-of-time compilation for small native executables
+- **Source generators** -- compile-time code generation where reflection is unavailable
+- **Architecture tests** -- NetArchTest enforcing layer boundaries in cpnucleo
+- **Contract tests** -- executable checks that published behavior matches the lab
 
 ## Architecture Patterns
 
-Used consistently across projects:
+Used across the public projects:
 
 - **Clean Architecture** (cpnucleo)
 - **CQRS** -- Command Query Responsibility Segregation (cpnucleo)
 - **DDD** -- Domain-Driven Design (cpnucleo)
-- **Microservices** (cpnucleo, all rinha2)
-- **Database-first logic** -- stored procedures in PostgreSQL (all rinha2)
+- **Learning labs** -- readable source, repeatable experiments, and docs beside the code

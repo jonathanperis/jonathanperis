@@ -4,7 +4,7 @@ description: Section layout, terminal aesthetic conventions, project table forma
 type: project
 ---
 
-## README Section Layout (169 lines)
+## README Section Layout (160 lines)
 
 | Line Range | Section | Header Style |
 |-----------|---------|--------------|
@@ -12,8 +12,7 @@ type: project
 | ~15-30 | Who Am I | `$ whoami` — bio, languages, philosophy |
 | ~32-70 | Projects | `$ ls ~/projects --sort=stars` — 10-project table |
 | ~72-95 | Tech Stack | `$ cat /proc/tech_stack` — ASCII table |
-| ~97-115 | Benchmarks | `$ cat benchmarks.md` — rinha comparison table |
-| ~117-145 | System Info | `$ neofetch` — contact, system emulation |
+| ~97-130 | System Info | `$ neofetch` — contact, system emulation |
 | ~147-169 | Contribution | Animated snake SVG (light/dark responsive) |
 
 ## Terminal Aesthetic Rules
@@ -26,13 +25,12 @@ type: project
 
 ## When to Update
 
-- **Adding a new repo**: Update the projects table (`$ ls ~/projects`) and potentially the benchmarks section
+- **Adding a new repo**: Update the projects table (`$ ls ~/projects/active`)
 - **Changing tech stack**: Update the `$ cat /proc/tech_stack` section
-- **New rinha implementation**: Update the benchmarks table
 
 ## Wiki (jonathanperis.wiki/)
 
-Separate git repo containing deep-dive documentation for each project, architecture patterns, performance engineering methodology. 11 markdown files.
+Wiki markdown in `wiki/` documents the public projects, architecture patterns, and how those projects measure behavior.
 
 ## Automated Content
 

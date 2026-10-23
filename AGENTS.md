@@ -26,8 +26,7 @@ jonathanperis/
     ├── Home.md                 # Wiki index
     ├── About.md                # Extended bio
     ├── cpnucleo.md             # Project deep dive
-    ├── rinha-de-backend.md     # Challenge documentation
-    ├── super-mango-editor.md     # Game dev docs
+    ├── super-mango-editor.md   # Game dev docs
     ├── portfolio-site.md       # Portfolio site docs
     ├── blazor-mudblazor-starter.md
     ├── tech-stack.md           # Complete tech inventory
@@ -42,9 +41,8 @@ jonathanperis/
 | Section | Command Header | Content |
 |---------|---------------|---------|
 | Profile | `$ whoami` | Developer bio + languages |
-| Projects | `$ ls ~/projects --sort=stars` | 10 projects table with stars |
+| Projects | `$ ls ~/projects/active` | Current public projects, including csharpc and jonlib |
 | Tech Stack | `$ cat /proc/tech_stack` | ASCII table of technologies |
-| Benchmarks | `$ cat benchmarks.md` | Rinha implementations comparison |
 | System Info | `$ neofetch` | Contact info, system emulation |
 | Contribution Graph | — | Animated snake SVG (light/dark) |
 
