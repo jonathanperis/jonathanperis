@@ -11,21 +11,22 @@ var jonathan = new Developer
 {
     Location  = "Itanhaem, SP, Brazil",
     Company   = "Peris Studio",
-    Focus     = new[] { "Learning by Building", ".NET", "Game Dev", "Simulation" },
-    Languages = new[] { "C#", "C", "TypeScript", "Python", "Go", "Rust", "x86-64 ASM" },
-    Hobbies   = new[] { "Game Dev", "Orbital Mechanics", "Load Testing Everything" }
+    Focus     = new[] { "Learning by Building", ".NET", "Compilers", "Game Dev", "Simulation" },
+    Languages = new[] { "C#", "C", "TypeScript", "Python", "Bend 2", "Go", "Rust" },
+    Hobbies   = new[] { "Game Dev", "Orbital Mechanics", "Compilers" }
 };
 ```
 
 ### `$ whoami`
 
-Software engineer building hands-on learning projects: backend systems, games, and physics simulations. I like code you can inspect, experiments you can repeat, and tradeoffs you can measure.
+Software engineer building hands-on learning projects: compilers, backend systems, games, and physics simulations. I like code you can inspect, experiments you can repeat, and tradeoffs you can measure.
 
-.NET is my backend home base. My current work also explores C11/raylib and WebAssembly, orbital mechanics, and TypeScript with Astro, React, and ReactLynx. Performance engineering connects it all: build, observe, compare, explain.
+.NET is my backend home base. Current work includes a C# front-end for LLVM, Bend 2 graphics libraries, C11/raylib and WebAssembly, orbital mechanics, and TypeScript with Astro, React, and ReactLynx.
 
 ### `$ cat focus.md`
 
 - **Learn by building:** turn working applications into guided labs, with readable source, repeatable experiments, and documentation alongside the code.
+- **Build compilers and graphics libraries:** compile C# to native code with Roslyn and LLVM, and write Bend 2 graphics and math toward raylib parity.
 - **Explore games and physics:** build a platformer and visual level editor, then investigate numerical methods and orbital motion through native and browser simulations.
 - **Compare .NET approaches:** study REST/gRPC, EF Core/Dapper, authentication, observability, and Blazor UI behavior through executable examples.
 - **Make projects easy to explore:** ship playable demos, Astro documentation, and CI checks that keep published claims aligned with the implementation.
@@ -35,6 +36,22 @@ Software engineer building hands-on learning projects: backend systems, games, a
 ### `$ ls ~/projects/active`
 
 <table>
+<tr><td>
+
+**[csharpc](https://github.com/jonathanperis/csharpc)** \
+A C# front-end for LLVM. It compiles C# to small native executables through Roslyn and LLVM, in the same family as clang, rustc, and gollvm. \
+`C#` `Roslyn` `LLVM` `compilers` \
+[Source](https://github.com/jonathanperis/csharpc)
+
+</td></tr>
+<tr><td>
+
+**[jonlib](https://github.com/jonathanperis/jonlib)** \
+Graphics and math libraries written in Bend 2, working toward raylib 6.0 parity, with differential tests against pinned raylib. \
+`Bend 2` `raylib` `graphics` `math` \
+[Source](https://github.com/jonathanperis/jonlib)
+
+</td></tr>
 <tr><td>
 
 **[super-mango-editor](https://github.com/jonathanperis/super-mango-editor)** \
@@ -92,34 +109,15 @@ Static portfolio and print-friendly resume, with build-time GitHub project data 
 ```
 +-------------------+----------------------------------------------------+
 | Backend           | .NET 10, FastEndpoints, REST/gRPC, EF Core, Dapper |
-| Games & physics   | C11, raylib, Emscripten, WebAssembly, TOML         |
+| Compilers         | C#, Roslyn, LLVM                                   |
+| Games & physics   | C11, raylib, Emscripten, WebAssembly, Bend 2, TOML |
 | Web & UI          | Astro, React, ReactLynx, TypeScript, Tailwind CSS  |
 | .NET UI           | Blazor Server, MudBlazor                           |
 | Data & delivery   | PostgreSQL, SQLite, Docker, GitHub Actions, Bun    |
-| Observability     | OpenTelemetry, Grafana, k6                         |
+| Observability     | OpenTelemetry                                      |
 | Practice          | Learning labs, contract tests, reproducible runs   |
 +-------------------+----------------------------------------------------+
 ```
-
----
-
-### `$ ls ~/projects/archive/performance`
-
-My **Rinha de Backend** repositories are archived performance experiments. They cover transaction APIs in the 2024/Q1 challenge and fraud detection in the 2026 challenge, from managed runtimes down to raw sockets and assembly.
-
-| Challenge | Repository | What I explored |
-|-----------|------------|-----------------|
-| 2026 | [rinha4-back-end-dotnet](https://github.com/jonathanperis/rinha4-back-end-dotnet) | .NET 10 NativeAOT, raw HTTP/1, vector search |
-| 2026 | [rinha4-back-end-c](https://github.com/jonathanperis/rinha4-back-end-c) | C, epoll, memory-mapped indexes, nearest-neighbor search |
-| 2026 | [rinha4-yolo-mode](https://github.com/jonathanperis/rinha4-yolo-mode) | x86-64 assembly API and payload-derived fraud heuristics |
-| 2026 | [rinha4-lb-yolo-mode](https://github.com/jonathanperis/rinha4-lb-yolo-mode) | Assembly/C load balancers, Unix sockets, SCM_RIGHTS |
-| 2024/Q1 | [rinha2-back-end-dotnet](https://github.com/jonathanperis/rinha2-back-end-dotnet) | ASP.NET Core Minimal API, Native AOT, Npgsql multiplexing |
-| 2024/Q1 | [rinha2-back-end-go](https://github.com/jonathanperis/rinha2-back-end-go) | Go, chi, pgx, PostgreSQL stored procedures |
-| 2024/Q1 | [rinha2-back-end-rust](https://github.com/jonathanperis/rinha2-back-end-rust) | Rust, Actix-web, Tokio, SQLx |
-| 2024/Q1 | [rinha2-back-end-python](https://github.com/jonathanperis/rinha2-back-end-python) | Python, Flask, Gunicorn, psycopg2 |
-| 2024/Q1 | [rinha2-back-end-k6](https://github.com/jonathanperis/rinha2-back-end-k6) | Shared load harness, xk6, InfluxDB, Grafana |
-
-The lesson I carry forward: compare correctness, latency, and resource use under explicit constraints. Benchmark reports and implementation details live with each project.
 
 ---
 
@@ -137,7 +135,7 @@ The lesson I carry forward: compare correctness, latency, and resource use under
    Theme:     Dark Terminal Aesthetic
 
    Contact:   jperis.silva@gmail.com
-   Portfolio: https://jonathanperis.github.io/
+   Portfolio: https://www.jonathanperis.tech/
    Twitter:   @jperis_silva
 ```
 
@@ -158,5 +156,5 @@ The lesson I carry forward: compare correctness, latency, and resource use under
 ---
 
 <p align="center">
-  <sub>hint: visit <a href="https://jonathanperis.github.io/">jonathanperis.github.io</a> and try the Konami code</sub>
+  <sub>hint: visit <a href="https://www.jonathanperis.tech/">jonathanperis.tech</a> and try the Konami code</sub>
 </p>

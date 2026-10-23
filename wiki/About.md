@@ -2,13 +2,13 @@
 
 ## Background
 
-Jonathan Peris is a software engineer from **Itanhaem, São Paulo, Brazil**, building software under the banner of **Peris Studio**. Active on GitHub since **August 2015**, he maintains a portfolio of 10 active repositories spanning backend services, game development, frontend applications, and developer tooling.
+Jonathan Peris is a software engineer from **Itanhaem, São Paulo, Brazil**, building software under the banner of **Peris Studio**. Active on GitHub since **August 2015**, he maintains public learning projects across compilers, backend systems, games, simulations, and developer tooling.
 
 ## Engineering Philosophy
 
 ### "Build It, Benchmark It, Rebuild It"
 
-Jonathan's approach to software engineering is distinctly empirical. Rather than debating whether language X is faster than language Y, he implements the **same system in multiple languages** and measures the results. The Rinha de Backend challenge series is the purest expression of this philosophy: identical API specs, identical infrastructure, four different language implementations, one shared stress test suite.
+Jonathan's approach to software engineering is distinctly empirical. Learning projects ship with readable source, repeatable experiments, and documentation next to the code. The solar-system simulator compares numerical methods on the same physics. cpnucleo compares REST with gRPC, and EF Core with Dapper, using contract tests. csharpc is a C# front-end for LLVM, aimed at small native executables.
 
 ### Production-Grade or Bust
 
@@ -16,28 +16,27 @@ Even reference architectures and starter templates are built to production stand
 
 ### Infrastructure as a First-Class Concern
 
-Every backend project ships with Docker Compose, Nginx reverse proxy configuration, and PostgreSQL. There's no "run it locally and pray" -- everything is containerized from day one. Observability (OpenTelemetry, Grafana, InfluxDB) is baked in, not bolted on.
+Backend projects ship with Docker, and cpnucleo records behavior with OpenTelemetry. The point is that a learning lab can still be run and inspected the same way twice.
 
 ### Cross-Language Fluency Over Framework Expertise
 
 While C# / .NET is the primary stack, Jonathan deliberately maintains working proficiency across ecosystems:
 
-- **C#/.NET** -- primary language, deep expertise in ASP.NET, EF Core, Blazor, Native AOT
-- **Rust** -- systems-level work with Actix-web and Tokio
-- **Go** -- minimalist API services with chi and pgx
-- **C** -- game development with SDL2 and Emscripten/WebAssembly
-- **Python** -- backend services and scripting
-- **TypeScript** -- frontend with React/Next.js
+- **C#/.NET** -- primary language for cpnucleo, csharpc, and Blazor
+- **C** -- games and orbital simulation with raylib and WebAssembly
+- **Bend 2** -- graphics and math in jonlib
+- **TypeScript** -- the Astro portfolio and the ReactLynx game
+- **Python** -- tooling and tests alongside the C, C#, and Bend projects
 
 ## Personal Touches
 
 - **Bio quote**: *"A Vinganca nunca e plena, mata a alma e a envenena."* -- a classic line from **Seu Madruga** (Don Ramon) in the beloved Latin American TV show *Chaves* (El Chavo del Ocho), reflecting a sense of humor deeply rooted in Brazilian culture
-- **Portfolio easter egg**: Visit [jonathanperis.github.io](https://jonathanperis.github.io) and enter the Konami Code to unlock a fake terminal with commands like `neofetch`, `sudo hire me`, and `git log`
+- **Portfolio easter egg**: Visit [jonathanperis.tech](https://www.jonathanperis.tech/) and enter the Konami Code to unlock a fake terminal with commands like `neofetch`, `sudo hire me`, and `git log`
 - **Currently open to opportunities** (hireable flag is on)
 
 ## Contact
 
 - **Email**: <jperis.silva@gmail.com>
-- **Portfolio**: [jonathanperis.github.io](https://jonathanperis.github.io)
+- **Portfolio**: [jonathanperis.tech](https://www.jonathanperis.tech/)
 - **Twitter/X**: [@jperis_silva](https://twitter.com/jperis_silva)
 - **GitHub**: [jonathanperis](https://github.com/jonathanperis)

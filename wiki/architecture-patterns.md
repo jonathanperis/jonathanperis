@@ -51,35 +51,9 @@ The domain model uses DDD tactical patterns:
 - **Aggregates** defining consistency boundaries
 - **Domain Events** for cross-aggregate communication
 
-## Database-First Logic (Rinha de Backend)
+## Service Boundaries (cpnucleo)
 
-All four Rinha de Backend implementations push business logic into **PostgreSQL stored functions**. This is a deliberate architectural choice:
-
-```sql
--- The same PLpgSQL functions are shared across C#, Rust, Go, and Python
--- The application layer is just HTTP -> validate -> call stored proc -> return
-```
-
-**Why**: For this specific workload (financial transactions requiring ACID guarantees), the database is the natural place for the logic. It eliminates network round trips, leverages PostgreSQL's transaction isolation, and reduces the application to a thin HTTP adapter. This is why all four implementations can be 140-200 lines -- they're deliberately thin.
-
-## Microservices (cpnucleo, Rinha de Backend)
-
-### Service Communication
-
-- **cpnucleo**: gRPC for synchronous inter-service communication
-- **Rinha de Backend**: 2 stateless API instances behind Nginx round-robin
-
-### Infrastructure Pattern
-
-Every multi-service project follows the same Docker Compose structure:
-
-```
-services:
-  api-1:     # First API instance
-  api-2:     # Second API instance
-  nginx:     # Reverse proxy / load balancer
-  postgres:  # Database
-```
+cpnucleo uses gRPC for synchronous inter-service communication. REST and gRPC are both present so the lab can compare them, and contract tests check the behavior that comparison depends on.
 
 ## Native AOT as an Architectural Decision
 
@@ -90,7 +64,7 @@ Native AOT isn't just a compilation flag -- it constrains the architecture:
 - Source generators required for JSON serialization
 - Smaller attack surface (no JIT compiler in the runtime)
 
-Jonathan embraces these constraints in cpnucleo and rinha2-dotnet, treating them as guardrails rather than limitations. The result is faster startup, lower memory, and a more predictable runtime.
+csharpc is the compiler project in that direction: Roslyn is the front-end, and LLVM emits a small native executable.
 
 ## Testing Strategy
 
@@ -109,9 +83,3 @@ Jonathan embraces these constraints in cpnucleo and rinha2-dotnet, treating them
 - Enforce dependency direction (inner layers don't know about outer layers)
 - Prevent Infrastructure imports in Domain
 - Catch architectural violations at build time
-
-### Stress Tests (k6)
-
-- Shared test suite across all Rinha implementations
-- Metrics exported to InfluxDB for Grafana visualization
-- HTML reports for standalone analysis
