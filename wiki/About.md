@@ -2,7 +2,7 @@
 
 ## Background
 
-Jonathan Peris is a software engineer from **Itanhaem, São Paulo, Brazil**, building software under the banner of **Peris Studio**. Active on GitHub since **August 2015**, he maintains public learning projects across compilers, backend systems, games, simulations, and developer tooling.
+Jonathan Peris is a software engineer from **Itanhaem, São Paulo, Brazil**, currently Software Engineer at **Derivative Path**. He has 12+ years of experience, with professional .NET development since May 2013. C# and .NET are his core; Rust, Go, and Python are languages he is actively exploring. Public side projects cover compilers, backend systems, games, simulations, and developer tooling.
 
 ## Engineering Philosophy
 
@@ -18,15 +18,15 @@ Even reference architectures and starter templates are built to production stand
 
 Backend projects ship with Docker, and cpnucleo records behavior with OpenTelemetry. The point is that a learning lab can still be run and inspected the same way twice.
 
-### Cross-Language Fluency Over Framework Expertise
+### Core .NET, Other Languages in Side Projects
 
-While C# / .NET is the primary stack, Jonathan deliberately maintains working proficiency across ecosystems:
+C# / .NET is the core stack. Side projects are learning by building. Rust, Go, and Python are languages he is actively exploring.
 
-- **C#/.NET** -- primary language for cpnucleo, csharpc, and Blazor
-- **C** -- games and orbital simulation with raylib and WebAssembly
-- **Bend 2** -- graphics and math in jonlib
+- **C#/.NET** -- core language for backend work, plus cpnucleo, csharpc, and Blazor
+- **C** -- side projects: games and orbital simulation with raylib and WebAssembly
+- **Bend 2** -- side project: graphics and math in jonlib
 - **TypeScript** -- the Astro portfolio and the ReactLynx game
-- **Python** -- tooling and tests alongside the C, C#, and Bend projects
+- **Rust, Go, and Python** -- actively exploring, including tooling beside the C, C#, and Bend sources
 
 ## Personal Touches
 

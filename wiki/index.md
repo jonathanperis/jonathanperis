@@ -4,7 +4,7 @@ Welcome to the comprehensive wiki documenting Jonathan Peris's open-source work,
 
 ## Who Is Jonathan Peris?
 
-Software engineer based in **Itanhaem, SP, Brazil**, working at **Peris Studio**. .NET / C# is home base. The public projects also span C, Bend 2, TypeScript, and Python: a compiler front-end, games, an orbital simulator, and learning labs.
+Software Engineer | .NET · C# · Azure | Backend Architecture (CQRS, DDD, Microservices) | Fintech. Based in **Itanhaem, SP, Brazil**, currently Software Engineer at **Derivative Path**. C# / .NET is the core. Rust, Go, and Python are languages he is actively exploring. Public side projects also span C, Bend 2, and TypeScript: a compiler front-end, games, an orbital simulator, and learning labs.
 
 The repos share a working habit: readable source, something you can run or repeat, and documentation beside the code.
 

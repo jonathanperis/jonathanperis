@@ -14,7 +14,7 @@ This is a **special GitHub repository** — its README.md is rendered as the pro
 
 ```
 jonathanperis/
-├── README.md                   # Profile README (169 lines, terminal aesthetic)
+├── README.md                   # Profile README (terminal aesthetic)
 ├── LICENSE                     # MIT License
 ├── .editorconfig               # UTF-8, LF, 4-space indent
 ├── .gitignore                  # .DS_Store only
@@ -99,7 +99,7 @@ The README must include these three badges (top of file, before the quote block)
 The README must include these bold links (before the snake animation):
 
 ```markdown
-**[Live demo →](https://jonathanperis.github.io/)** | **[Documentation →](https://github.com/jonathanperis/jonathanperis/wiki)**
+**[Live demo →](https://www.jonathanperis.tech/)** | **[Documentation →](https://github.com/jonathanperis/jonathanperis/wiki)**
 ```
 
 ---
