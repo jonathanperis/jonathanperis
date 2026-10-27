@@ -6,7 +6,7 @@
 
 ## Overview
 
-Jonathan's personal portfolio at [jonathanperis.github.io](https://jonathanperis.github.io) is a modern static site with a dark terminal aesthetic. Built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4, it's deployed via GitHub Actions to GitHub Pages.
+Jonathan's personal portfolio at [jonathanperis.tech](https://www.jonathanperis.tech) is a modern static site with a dark terminal aesthetic. Built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4, it's deployed via GitHub Actions to GitHub Pages.
 
 This isn't a generic template -- it's a custom-built site with dynamic content, animations, and hidden features.
 

@@ -10,22 +10,28 @@
 var jonathan = new Developer
 {
     Location  = "Itanhaem, SP, Brazil",
-    Company   = "Peris Studio",
-    Focus     = new[] { "Learning by Building", ".NET", "Compilers", "Game Dev", "Simulation" },
-    Languages = new[] { "C#", "C", "TypeScript", "Python", "Bend 2", "Go", "Rust" },
+    Role      = "Software Engineer",
+    Company   = "Derivative Path",
+    Headline  = "Software Engineer | .NET · C# · Azure | Backend Architecture (CQRS, DDD, Microservices) | Fintech",
+    Core      = new[] { "C#", ".NET", "Azure" },
+    Exploring = new[] { "Rust", "Go", "Python" },
+    Projects  = new[] { "Compilers", "Game Dev", "Simulation", "Bend", "C11", "WebAssembly" },
     Hobbies   = new[] { "Game Dev", "Orbital Mechanics", "Compilers" }
 };
 ```
 
 ### `$ whoami`
 
-Software engineer building hands-on learning projects: compilers, backend systems, games, and physics simulations. I like code you can inspect, experiments you can repeat, and tradeoffs you can measure.
+Software Engineer | .NET · C# · Azure | Backend Architecture (CQRS, DDD, Microservices) | Fintech. Currently Software Engineer at Derivative Path.
 
-.NET is my backend home base. Current work includes a C# front-end for LLVM, Bend 2 graphics libraries, C11/raylib and WebAssembly, orbital mechanics, and TypeScript with Astro, React, and ReactLynx.
+12+ years of experience specializing in .NET and Fintech, with professional .NET development since May 2013. C# and .NET are the core: ASP.NET Core, Entity Framework, Azure, and backend architecture with CQRS, DDD, microservices, and clean architecture.
+
+Actively exploring Rust, Go, and Python for high-performance and concurrent systems. Side projects are learning by building: a C# front-end for LLVM, Bend 2 graphics libraries, C11/raylib and WebAssembly, orbital mechanics, and TypeScript with Astro, React, and ReactLynx.
 
 ### `$ cat focus.md`
 
-- **Learn by building:** turn working applications into guided labs, with readable source, repeatable experiments, and documentation alongside the code.
+- **Ship fintech backends:** C# and .NET with CQRS, DDD, microservices, clean architecture, and Azure.
+- **Learn by building:** side projects turn working applications into guided labs, with readable source, repeatable experiments, and documentation alongside the code.
 - **Build compilers and graphics libraries:** compile C# to native code with Roslyn and LLVM, and write Bend 2 graphics and math toward raylib parity.
 - **Explore games and physics:** build a platformer and visual level editor, then investigate numerical methods and orbital motion through native and browser simulations.
 - **Compare .NET approaches:** study REST/gRPC, EF Core/Dapper, authentication, observability, and Blazor UI behavior through executable examples.
@@ -34,6 +40,8 @@ Software engineer building hands-on learning projects: compilers, backend system
 ---
 
 ### `$ ls ~/projects/active`
+
+Public side projects and learning labs.
 
 <table>
 <tr><td>
@@ -57,7 +65,7 @@ Graphics and math libraries written in Bend 2, working toward raylib 6.0 parity,
 **[super-mango-editor](https://github.com/jonathanperis/super-mango-editor)** \
 C11/raylib platformer, visual TOML level editor, and Sandbox School for learning game development. \
 `C11` `raylib` `Emscripten` `WebAssembly` `level editor` `learning labs` \
-[Play](https://jonathanperis.github.io/super-mango-editor/) · [Learn](https://jonathanperis.github.io/super-mango-editor/docs/learning-path/)
+[Play](https://www.jonathanperis.tech/super-mango-editor/) · [Learn](https://www.jonathanperis.tech/super-mango-editor/docs/learning-path/)
 
 </td></tr>
 <tr><td>
@@ -65,7 +73,7 @@ C11/raylib platformer, visual TOML level editor, and Sandbox School for learning
 **[solar-system-simulator](https://github.com/jonathanperis/solar-system-simulator)** \
 Physics-first orbital mechanics lab with a shared C core for native, WebAssembly, and headless runs; reproducible A/B experiments and a source-backed small-body atlas. \
 `C11` `raylib` `WebAssembly` `numerical methods` `Verlet / Euler` `NASA / JPL data` \
-[Simulate](https://jonathanperis.github.io/solar-system-simulator/simulator/) · [Compare experiments](https://jonathanperis.github.io/solar-system-simulator/compare/)
+[Simulate](https://www.jonathanperis.tech/solar-system-simulator/simulator/) · [Compare experiments](https://www.jonathanperis.tech/solar-system-simulator/compare/)
 
 </td></tr>
 <tr><td>
@@ -73,7 +81,7 @@ Physics-first orbital mechanics lab with a shared C core for native, WebAssembly
 **[cpnucleo](https://github.com/jonathanperis/cpnucleo)** \
 Hands-on .NET 10 project-management lab: compare REST/gRPC and EF Core/Dapper, explore architecture tradeoffs, and verify behavior with contract tests. \
 `FastEndpoints` `PostgreSQL` `OpenTelemetry` `Astro` `TypeScript` `Docker` \
-[Learning paths](https://jonathanperis.github.io/cpnucleo/docs/learning-lab/)
+[Learning paths](https://www.jonathanperis.tech/cpnucleo/docs/learning-lab/)
 
 </td></tr>
 <tr><td>
@@ -81,7 +89,7 @@ Hands-on .NET 10 project-management lab: compare REST/gRPC and EF Core/Dapper, e
 **[blazor-mudblazor-starter](https://github.com/jonathanperis/blazor-mudblazor-starter)** \
 Local-first .NET 10 learning sandbox for Blazor Server and MudBlazor: state, forms, APIs, persistence, authentication, localization, and CSV workflows. \
 `Blazor Server` `MudBlazor` `EF Core` `SQLite` `Docker` `guided labs` \
-[Learning guide](https://jonathanperis.github.io/blazor-mudblazor-starter/docs/)
+[Learning guide](https://www.jonathanperis.tech/blazor-mudblazor-starter/docs/)
 
 </td></tr>
 <tr><td>
@@ -89,7 +97,7 @@ Local-first .NET 10 learning sandbox for Blazor Server and MudBlazor: state, for
 **[speedy-bird-lynx](https://github.com/jonathanperis/speedy-bird-lynx)** \
 Flappy Bird-inspired arcade game exploring ReactLynx native UI: Android host, Lynx web preview, and a separate playable Canvas demo. iOS host source is a scaffold. \
 `ReactLynx` `TypeScript` `Android` `Canvas` `Astro` \
-[Play](https://jonathanperis.github.io/speedy-bird-lynx/) · [Docs](https://jonathanperis.github.io/speedy-bird-lynx/docs/)
+[Play](https://www.jonathanperis.tech/speedy-bird-lynx/) · [Docs](https://www.jonathanperis.tech/speedy-bird-lynx/docs/)
 
 </td></tr>
 <tr><td>
@@ -97,7 +105,7 @@ Flappy Bird-inspired arcade game exploring ReactLynx native UI: Android host, Ly
 **[jonathanperis.github.io](https://github.com/jonathanperis/jonathanperis.github.io)** \
 Static portfolio and print-friendly resume, with build-time GitHub project data and a terminal-inspired UI. \
 `Astro` `React` `TypeScript` `Tailwind CSS` `GitHub Pages` \
-[Visit](https://jonathanperis.github.io/) · [Resume](https://jonathanperis.github.io/resume/)
+[Visit](https://www.jonathanperis.tech/) · [Resume](https://www.jonathanperis.tech/resume/)
 
 </td></tr>
 </table>
@@ -108,6 +116,9 @@ Static portfolio and print-friendly resume, with build-time GitHub project data 
 
 ```
 +-------------------+----------------------------------------------------+
+| Core              | C#, .NET, ASP.NET Core, Azure, SQL Server          |
+| Architecture      | CQRS, DDD, Microservices, Clean Architecture       |
+| Exploring         | Rust, Go, Python                                   |
 | Backend           | .NET 10, FastEndpoints, REST/gRPC, EF Core, Dapper |
 | Compilers         | C#, Roslyn, LLVM                                   |
 | Games & physics   | C11, raylib, Emscripten, WebAssembly, Bend 2, TOML |
@@ -124,12 +135,13 @@ Static portfolio and print-friendly resume, with build-time GitHub project data 
 ### `$ neofetch`
 
 ```
-   jonathan@peris-studio
-   ----------------------
+   jonathan@itanhaem
+   -----------------
    OS:        macOS / Linux / Docker
    Shell:     zsh + dotfiles
    Editor:    VS Code + JetBrains
-   Uptime:    coding since 2015
+   Uptime:    12+ years; .NET since May 2013
+   Role:      Software Engineer, Derivative Path
    Loop:      build, inspect, measure, explain
    Packages:  NuGet, Bun, Cargo, pip
    Theme:     Dark Terminal Aesthetic
@@ -142,7 +154,7 @@ Static portfolio and print-friendly resume, with build-time GitHub project data 
 ---
 
 <p align="center">
-  <b><a href="https://jonathanperis.github.io/">Live demo →</a></b> | <b><a href="https://github.com/jonathanperis/jonathanperis/wiki">Documentation →</a></b>
+  <b><a href="https://www.jonathanperis.tech/">Live demo →</a></b> | <b><a href="https://github.com/jonathanperis/jonathanperis/wiki">Documentation →</a></b>
 </p>
 
 ---
