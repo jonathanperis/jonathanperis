@@ -99,7 +99,7 @@ The README must include these three badges (top of file, before the quote block)
 The README must include these bold links (before the snake animation):
 
 ```markdown
-**[Live demo →](https://www.jonathanperis.tech/)** | **[Documentation →](https://github.com/jonathanperis/jonathanperis/wiki)**
+**[Live demo →](https://jonathanperis.dev/)** | **[Documentation →](https://github.com/jonathanperis/jonathanperis/wiki)**
 ```
 
 ---
