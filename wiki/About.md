@@ -38,5 +38,5 @@ C# / .NET is the core stack. Side projects are learning by building. Rust, Go, a
 
 - **Email**: <jperis.silva@gmail.com>
 - **Portfolio**: [jonathanperis.tech](https://www.jonathanperis.tech/)
-- **Twitter/X**: [@jperis_silva](https://twitter.com/jperis_silva)
+- **Twitter/X**: [@jonathanperis](https://x.com/jonathanperis)
 - **GitHub**: [jonathanperis](https://github.com/jonathanperis)

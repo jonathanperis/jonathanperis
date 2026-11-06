@@ -148,7 +148,7 @@ Static portfolio and print-friendly resume, with build-time GitHub project data 
 
    Contact:   jperis.silva@gmail.com
    Portfolio: https://www.jonathanperis.tech/
-   Twitter:   @jperis_silva
+   Twitter:   @jonathanperis
 ```
 
 ---
