@@ -65,7 +65,7 @@ Graphics and math libraries written in Bend 2, working toward raylib 6.0 parity,
 **[super-mango-editor](https://github.com/jonathanperis/super-mango-editor)** \
 C11/raylib platformer, visual TOML level editor, and Sandbox School for learning game development. \
 `C11` `raylib` `Emscripten` `WebAssembly` `level editor` `learning labs` \
-[Play](https://www.jonathanperis.tech/super-mango-editor/) · [Learn](https://www.jonathanperis.tech/super-mango-editor/docs/learning-path/)
+[Play](https://super-mango-editor.jonathanperis.tech/) · [Learn](https://super-mango-editor.jonathanperis.tech/docs/learning-path/)
 
 </td></tr>
 <tr><td>
@@ -73,7 +73,7 @@ C11/raylib platformer, visual TOML level editor, and Sandbox School for learning
 **[solar-system-simulator](https://github.com/jonathanperis/solar-system-simulator)** \
 Physics-first orbital mechanics lab with a shared C core for native, WebAssembly, and headless runs; reproducible A/B experiments and a source-backed small-body atlas. \
 `C11` `raylib` `WebAssembly` `numerical methods` `Verlet / Euler` `NASA / JPL data` \
-[Simulate](https://www.jonathanperis.tech/solar-system-simulator/simulator/) · [Compare experiments](https://www.jonathanperis.tech/solar-system-simulator/compare/)
+[Simulate](https://solar-system-simulator.jonathanperis.tech/simulator/) · [Compare experiments](https://solar-system-simulator.jonathanperis.tech/compare/)
 
 </td></tr>
 <tr><td>
@@ -81,7 +81,7 @@ Physics-first orbital mechanics lab with a shared C core for native, WebAssembly
 **[cpnucleo](https://github.com/jonathanperis/cpnucleo)** \
 Hands-on .NET 10 project-management lab: compare REST/gRPC and EF Core/Dapper, explore architecture tradeoffs, and verify behavior with contract tests. \
 `FastEndpoints` `PostgreSQL` `OpenTelemetry` `Astro` `TypeScript` `Docker` \
-[Learning paths](https://www.jonathanperis.tech/cpnucleo/docs/learning-lab/)
+[Learning paths](https://cpnucleo.jonathanperis.tech/docs/learning-lab/)
 
 </td></tr>
 <tr><td>
@@ -89,7 +89,7 @@ Hands-on .NET 10 project-management lab: compare REST/gRPC and EF Core/Dapper, e
 **[blazor-mudblazor-starter](https://github.com/jonathanperis/blazor-mudblazor-starter)** \
 Local-first .NET 10 learning sandbox for Blazor Server and MudBlazor: state, forms, APIs, persistence, authentication, localization, and CSV workflows. \
 `Blazor Server` `MudBlazor` `EF Core` `SQLite` `Docker` `guided labs` \
-[Learning guide](https://www.jonathanperis.tech/blazor-mudblazor-starter/docs/)
+[Learning guide](https://blazor-mudblazor-starter.jonathanperis.tech/docs/)
 
 </td></tr>
 <tr><td>
@@ -97,7 +97,7 @@ Local-first .NET 10 learning sandbox for Blazor Server and MudBlazor: state, for
 **[speedy-bird-lynx](https://github.com/jonathanperis/speedy-bird-lynx)** \
 Flappy Bird-inspired arcade game exploring ReactLynx native UI: Android host, Lynx web preview, and a separate playable Canvas demo. iOS host source is a scaffold. \
 `ReactLynx` `TypeScript` `Android` `Canvas` `Astro` \
-[Play](https://www.jonathanperis.tech/speedy-bird-lynx/) · [Docs](https://www.jonathanperis.tech/speedy-bird-lynx/docs/)
+[Play](https://speedy-bird-lynx.jonathanperis.tech/) · [Docs](https://speedy-bird-lynx.jonathanperis.tech/docs/)
 
 </td></tr>
 <tr><td>
@@ -105,7 +105,7 @@ Flappy Bird-inspired arcade game exploring ReactLynx native UI: Android host, Ly
 **[jonathanperis.github.io](https://github.com/jonathanperis/jonathanperis.github.io)** \
 Static portfolio and print-friendly resume, with build-time GitHub project data and a terminal-inspired UI. \
 `Astro` `React` `TypeScript` `Tailwind CSS` `GitHub Pages` \
-[Visit](https://www.jonathanperis.tech/) · [Resume](https://www.jonathanperis.tech/resume/)
+[Visit](https://jonathanperis.dev/) · [Resume](https://jonathanperis.dev/resume/)
 
 </td></tr>
 </table>
@@ -147,14 +147,14 @@ Static portfolio and print-friendly resume, with build-time GitHub project data 
    Theme:     Dark Terminal Aesthetic
 
    Contact:   jperis.silva@gmail.com
-   Portfolio: https://www.jonathanperis.tech/
+   Portfolio: https://jonathanperis.dev/
    Twitter:   @jonathanperis
 ```
 
 ---
 
 <p align="center">
-  <b><a href="https://www.jonathanperis.tech/">Live demo →</a></b> | <b><a href="https://github.com/jonathanperis/jonathanperis/wiki">Documentation →</a></b>
+  <b><a href="https://jonathanperis.dev/">Live demo →</a></b> | <b><a href="https://github.com/jonathanperis/jonathanperis/wiki">Documentation →</a></b>
 </p>
 
 ---
@@ -168,5 +168,5 @@ Static portfolio and print-friendly resume, with build-time GitHub project data 
 ---
 
 <p align="center">
-  <sub>hint: visit <a href="https://www.jonathanperis.tech/">jonathanperis.tech</a> and try the Konami code</sub>
+  <sub>hint: visit <a href="https://jonathanperis.dev/">jonathanperis.dev</a> and try the Konami code</sub>
 </p>

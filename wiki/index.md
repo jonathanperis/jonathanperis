@@ -17,7 +17,7 @@ The repos share a working habit: readable source, something you can run or repea
 | [cpnucleo](cpnucleo) | Backend / Architecture | C# | Hands-on .NET 10 project-management lab -- REST/gRPC, EF Core/Dapper, contract tests |
 | [super-mango-game](super-mango-game.md) | Game Development | C | C11/raylib platformer and visual level editor, playable via WebAssembly |
 | [solar-system-simulator](https://github.com/jonathanperis/solar-system-simulator) | Simulation | C | Orbital mechanics lab with native and WebAssembly runs and reproducible experiments |
-| [Portfolio Site](portfolio-site.md) | Frontend | TypeScript | Terminal-inspired portfolio and resume at jonathanperis.tech, built with Astro |
+| [Portfolio Site](portfolio-site.md) | Frontend | TypeScript | Terminal-inspired portfolio and resume at jonathanperis.dev, built with Astro |
 | [Blazor MudBlazor Starter](blazor-mudblazor-starter.md) | Frontend / Template | C# | Local-first Blazor Server sandbox with MudBlazor and guided labs |
 | [speedy-bird-lynx](https://github.com/jonathanperis/speedy-bird-lynx) | Game Development | TypeScript | ReactLynx arcade game with an Android host and a playable browser demo |
 

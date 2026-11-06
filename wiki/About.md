@@ -31,12 +31,12 @@ C# / .NET is the core stack. Side projects are learning by building. Rust, Go, a
 ## Personal Touches
 
 - **Bio quote**: *"A Vinganca nunca e plena, mata a alma e a envenena."* -- a classic line from **Seu Madruga** (Don Ramon) in the beloved Latin American TV show *Chaves* (El Chavo del Ocho), reflecting a sense of humor deeply rooted in Brazilian culture
-- **Portfolio easter egg**: Visit [jonathanperis.tech](https://www.jonathanperis.tech/) and enter the Konami Code to unlock a fake terminal with commands like `neofetch`, `sudo hire me`, and `git log`
+- **Portfolio easter egg**: Visit [jonathanperis.dev](https://jonathanperis.dev/) and enter the Konami Code to unlock a fake terminal with commands like `neofetch`, `sudo hire me`, and `git log`
 - **Currently open to opportunities** (hireable flag is on)
 
 ## Contact
 
 - **Email**: <jperis.silva@gmail.com>
-- **Portfolio**: [jonathanperis.tech](https://www.jonathanperis.tech/)
+- **Portfolio**: [jonathanperis.dev](https://jonathanperis.dev/)
 - **Twitter/X**: [@jonathanperis](https://x.com/jonathanperis)
 - **GitHub**: [jonathanperis](https://github.com/jonathanperis)
