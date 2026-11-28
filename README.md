@@ -65,7 +65,7 @@ Graphics and math libraries written in Bend 2, working toward raylib 6.0 parity,
 **[super-mango-editor](https://github.com/jonathanperis/super-mango-editor)** \
 C11/raylib platformer, visual TOML level editor, and Sandbox School for learning game development. \
 `C11` `raylib` `Emscripten` `WebAssembly` `level editor` `learning labs` \
-[Play](https://super-mango-editor.jonathanperis.tech/) · [Learn](https://super-mango-editor.jonathanperis.tech/docs/learning-path/)
+[Play](https://jonathanperis.dev/super-mango-editor/) · [Learn](https://jonathanperis.dev/super-mango-editor/docs/learning-path/)
 
 </td></tr>
 <tr><td>
@@ -73,7 +73,7 @@ C11/raylib platformer, visual TOML level editor, and Sandbox School for learning
 **[solar-system-simulator](https://github.com/jonathanperis/solar-system-simulator)** \
 Physics-first orbital mechanics lab with a shared C core for native, WebAssembly, and headless runs; reproducible A/B experiments and a source-backed small-body atlas. \
 `C11` `raylib` `WebAssembly` `numerical methods` `Verlet / Euler` `NASA / JPL data` \
-[Simulate](https://solar-system-simulator.jonathanperis.tech/simulator/) · [Compare experiments](https://solar-system-simulator.jonathanperis.tech/compare/)
+[Simulate](https://jonathanperis.dev/solar-system-simulator/simulator/) · [Compare experiments](https://jonathanperis.dev/solar-system-simulator/compare/)
 
 </td></tr>
 <tr><td>
@@ -81,7 +81,7 @@ Physics-first orbital mechanics lab with a shared C core for native, WebAssembly
 **[cpnucleo](https://github.com/jonathanperis/cpnucleo)** \
 Hands-on .NET 10 project-management lab: compare REST/gRPC and EF Core/Dapper, explore architecture tradeoffs, and verify behavior with contract tests. \
 `FastEndpoints` `PostgreSQL` `OpenTelemetry` `Astro` `TypeScript` `Docker` \
-[Learning paths](https://cpnucleo.jonathanperis.tech/docs/learning-lab/)
+[Learning paths](https://jonathanperis.dev/cpnucleo/docs/learning-lab/)
 
 </td></tr>
 <tr><td>
@@ -89,7 +89,7 @@ Hands-on .NET 10 project-management lab: compare REST/gRPC and EF Core/Dapper, e
 **[blazor-mudblazor-starter](https://github.com/jonathanperis/blazor-mudblazor-starter)** \
 Local-first .NET 10 learning sandbox for Blazor Server and MudBlazor: state, forms, APIs, persistence, authentication, localization, and CSV workflows. \
 `Blazor Server` `MudBlazor` `EF Core` `SQLite` `Docker` `guided labs` \
-[Learning guide](https://blazor-mudblazor-starter.jonathanperis.tech/docs/)
+[Learning guide](https://jonathanperis.dev/blazor-mudblazor-starter/docs/)
 
 </td></tr>
 <tr><td>
@@ -97,7 +97,7 @@ Local-first .NET 10 learning sandbox for Blazor Server and MudBlazor: state, for
 **[speedy-bird-lynx](https://github.com/jonathanperis/speedy-bird-lynx)** \
 Flappy Bird-inspired arcade game exploring ReactLynx native UI: Android host, Lynx web preview, and a separate playable Canvas demo. iOS host source is a scaffold. \
 `ReactLynx` `TypeScript` `Android` `Canvas` `Astro` \
-[Play](https://speedy-bird-lynx.jonathanperis.tech/) · [Docs](https://speedy-bird-lynx.jonathanperis.tech/docs/)
+[Play](https://jonathanperis.dev/speedy-bird-lynx/) · [Docs](https://jonathanperis.dev/speedy-bird-lynx/docs/)
 
 </td></tr>
 <tr><td>
